@@ -36,7 +36,12 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+Nota de peticion HTTP 
+//instalamos el paquete axios para realizar las peticiones HTTP.
 
+Por lo que a la hora de instalar axios, recomendamos instalen la versión 0.27.2 hasta que liberen una versión superior con el inconveniente solventado.
+
+Pueden usar el comando yarn add axios@0.27.2 o npm install axios@0.27.2.npm install axios@0.27.
 ## Stack usado
 ## MongoDB
 ## Nest

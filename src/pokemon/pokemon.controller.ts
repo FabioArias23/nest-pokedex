@@ -21,7 +21,7 @@ export class PokemonController {
 
   @Get(':term')
   findOne(@Param('term') term: string) {
-    return this.pokemonService.findOne( term );
+    return this.pokemonService.findOne(term);
   }
 
   @Patch(':term')

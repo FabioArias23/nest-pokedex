@@ -30,12 +30,28 @@ npm install
 ```
 3. tener Nest CLI instalado
 ```
-npm i -g @nestjs/cli
+npm i -g @nestjs/cli / nest start --watch
 ```
 4. levantar la base de datos
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo
+```
+ __.env.template__ y renombrar la copia a __.env__
+ ```
+ 6. Rellenar las variables de entorno definidas en el ```.env```
+```
+```
+7. Ejecutar la aplicacion en dev:
+```
+npm start: dev
+```
+8. Reconstruir la base de dato con la semilla,
+```
+http://localhost:3000/api/v2/seed
+``````
+
 Nota de peticion HTTP 
 //instalamos el paquete axios para realizar las peticiones HTTP.
 
